@@ -1,0 +1,3 @@
+* Exif Parser and Matplotlib Map Generator
+
+Code that generates http://malloc.dog/shrines/. Uses ~exiftool~ to pull out the data, and then uses ~matplotlib~ to generate the map, and regular ~elisp~ to generate the org file.
