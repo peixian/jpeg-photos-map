@@ -26,5 +26,5 @@ for row in df.iterrows():
     x, y = map(d["Latitude"], d["Longitude"])
     map.scatter(x, y, marker="D", color="orange")
 
-# Set title and save the figure without a white background
-plt.savefig(os.path.expanduser("~/code/writing/assets/shrines/map.svg"), transparent=True, format='svg')
+plt.savefig(os.path.expanduser("~/code/writing/assets/shrines/map.svg"),
+            transparent=True, format='svg', bbox_inches='tight', pad_inches=0)
